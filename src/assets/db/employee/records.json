@@ -4,7 +4,7 @@
 [
 
 {
-"name": "sonoo",
+"name": "Sonu",
 "salary": 56000,
 "married": true,
 "city":"kanpur",
@@ -13,36 +13,36 @@
 
 
 {
-"name": "Ab",
-"salary": 5666,
+"name": "Aftab",
+"salary": 56666,
 "married": true,
 "city":"lucknow",
-"mob":1234567
+"mob":1234567789
 },
 
 
 {
-"name": "xyz",
+"name": "Amit",
 "salary": 675445,
 "married": true,
 "city":"jaipur",
-"mob":987643
+"mob":9876437678
 },
 
 
 {
-"name": "sonoo",
+"name": "Amritesh",
 "salary": 76000,
 "married": true,
-"city":"uttar ",
+"city":"Jodhpur ",
 "mob":9929064621
 },
 
 {
-"name": "mnop",
+"name": "Pankaj",
 "salary": 98767,
 "married": true,
-"city":"udaipur",
+"city":"Udaipur",
 "mob":8209044096
 }
 
