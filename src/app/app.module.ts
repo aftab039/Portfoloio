@@ -11,6 +11,8 @@ import { AppPortfolio } from './Portfolio/app.Portfolio';
 import { AppServices } from './Serivces/app.Services';
 import { AppContact } from './Contact/app.Contact';
 import { AppAbout } from './About/app.About';
+import { Apppagenotfound } from './Pagenotfound/app.pagenotfound';
+import { HttpClientModule} from "@angular/common/http";
 
 
 
@@ -24,12 +26,16 @@ import { AppAbout } from './About/app.About';
     AppPortfolio,
     AppServices,
     AppContact,
-    AppAbout
+    AppAbout,
+    Apppagenotfound,
+    
 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

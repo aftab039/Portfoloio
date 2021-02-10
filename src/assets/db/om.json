@@ -1,0 +1,52 @@
+
+
+
+[
+
+{
+"name": "sonoo",
+"salary": 56000,
+"married": true,
+"city":"kanpur",
+"mob":9889440531
+},
+
+
+{
+"name": "Ab",
+"salary": 5666,
+"married": true,
+"city":"lucknow",
+"mob":1234567
+},
+
+
+{
+"name": "xyz",
+"salary": 675445,
+"married": true,
+"city":"jaipur",
+"mob":987643
+},
+
+
+{
+"name": "sonoo",
+"salary": 76000,
+"married": true,
+"city":"uttar ",
+"mob":9929064621
+},
+
+{
+"name": "mnop",
+"salary": 98767,
+"married": true,
+"city":"udaipur",
+"mob":8209044096
+}
+
+
+
+
+]
