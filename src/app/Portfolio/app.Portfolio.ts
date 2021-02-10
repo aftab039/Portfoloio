@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { EmployeesService } from 'src/service/employees.service';
 
 @Component({
   selector: 'app-Portfolio',
@@ -6,5 +7,20 @@ import { Component } from '@angular/core';
   
 })
 export class AppPortfolio {
-  title = 'Portfolio';
+  public mydata:any =[];
+
+  constructor(private emp:EmployeesService){}
+  title = 'Portfolio'
+
+  ngOnInit(){
+    this.data();
+
+  }
+  data(){
+    this.emp.getData().subscribe((data)=>{
+      this.mydata=data;
+      console.log("data a gya",this.mydata);
+    })
+
+  }
 }
