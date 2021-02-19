@@ -1,11 +1,11 @@
 <html>
 <head>
 <style>
- th , th>div {
+ tr , th>div {
      margin: 10px;
      
      
- }
+ }   
 
 </style>
 
@@ -21,11 +21,11 @@
 
 <table style="width: 60%; border:1px solid black">
    <tr>
-      <th>NAME<div *ngFor="let temp of mydata">{{temp.name}}</div> </th>
-      <th>MOBILE<div *ngFor="let temp of mydata">{{temp.mob}}</div></th>
-      <th>MARRIED<div *ngFor="let temp of mydata">{{temp.married}}</div></th>
-      <th>SALARY<div *ngFor="let temp of mydata">{{temp.salary}}</div></th>
-      <th>CITY<div *ngFor="let temp of mydata">{{temp.city}}</div> </th>
+      <th><div *ngFor="let temp of mydata">{{temp.name}}</div> </th>
+      <th><div *ngFor="let temp of mydata">{{temp.mob}}</div></th>
+      <th><div *ngFor="let temp of mydata">{{temp.married}}</div></th>
+      <th><div *ngFor="let temp of mydata">{{temp.salary}}</div></th>
+      <th><div *ngFor="let temp of mydata">{{temp.city}}</div> </th>
 
 
    </tr>
