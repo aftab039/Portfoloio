@@ -10,7 +10,7 @@ export class EmployeesService {
   constructor(private http:HttpClient) { }
 //public API='../assets/om.json';
 public ASP='../assets/db/employee/records.json';
-public Card='../assets/aboutus.json';
+
 
  getData(){
   //     // return this.http.get('./om.json');
@@ -22,9 +22,11 @@ public Card='../assets/aboutus.json';
   }
 }
 export class CardsServices{
+
  constructor(private http:HttpClient){}
+
  public Cards='../assets/aboutus.json';
-getdata(){
+ getdata(){
   return this.http.get(this.Cards);
 }
 
