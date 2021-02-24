@@ -1,11 +1,42 @@
 <h1>ABOUT US !!!!</h1>
 
 <div>{{cardsContainer}}</div>
+<div class="card-algn" *ngFor="let card of cardsContainer">
 
-<div *ngFor="let card of cardsContainer">{{card.Course}}</div>
-<div *ngFor="let card of cardsContainer">{{card.fee}}</div>
-<div *ngFor="let card of cardsContainer">{{card.Tenure}}</div>
-<div *ngFor="let card of cardsContainer">{{card.Type}}</div>
+<div>
+    <div>
+        <p><b>Course:</b></p>
+        <p>{{card.Course}}</p>
+
+
+    </div>
+    <div>
+        <p><b>Fee:</b></p>
+        <p>{{card.fee}}</p>
+
+
+    </div>
+    <div>
+        <p><b>Tenure:</b></p>
+        <p>{{card.Tenure}}</p>
+
+
+    </div>
+    <div>
+        <p><b>Type:</b></p>
+        <p>{{card.Type}}</p>
+
+
+    </div>
+
+
+
+
+
+</div>
+
+</div>
+
 
 
 
